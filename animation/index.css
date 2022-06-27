@@ -1,0 +1,33 @@
+#block1{
+   
+    background-color: aqua;
+    
+
+}
+#block2{
+    
+    background-color: blue;
+
+}
+
+#block3{
+    
+    background-color: aquamarine;
+    
+
+}
+.box{
+    width: 350px;
+    height: 150px;
+    
+    
+    
+   
+}
+#containeur{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}

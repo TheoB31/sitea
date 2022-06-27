@@ -1,0 +1,104 @@
+#feux{
+    height: 300px;
+    width: 600px;
+    background-image: url(image.jpg);
+  
+}
+#feux:hover{
+
+    transform: scale(2);
+    transition: 0.5s;
+    transform: translate(200px);
+}
+#feux:active{
+    transform: rotate(60deg);
+    background-image:url(johnny-hallyday-e1515768032931.jpg);
+}
+
+#deux{
+    height: 600px;
+    width: 600px;
+    background-image: url(claude-francois-les-dix-dates-cles-de-sa-carriere.jpg);
+
+  
+}
+#deux:hover{
+
+    
+    transition: 10s;
+    transform: translate(200px);
+    background-image: url(9hw9.gif);
+    ani
+    
+}
+#deux:active{
+    
+    
+    background-image: url(похороны-the-funeral.gif);
+    
+    transform: rotateY(10deg);
+}
+#ok{
+ 
+
+  
+}
+#ok:hover{
+
+   
+    background-image: url(barra05.gif);
+    
+
+    
+    
+
+    
+}
+#titre{
+   color: blue; 
+}
+
+#titre:hover{
+    color: white;
+    background-color: aqua;
+   display: flex;
+   text-align: center;
+   transition: 0.5s;
+}
+#gros:hover{
+    transition: 0.5s;
+}
+#ligne{
+    color: rgb(255, 123, 0);
+}
+#ligne:hover{
+    color: white;
+    background-color: rgb(221, 3, 3);
+    transition: 10s;
+    transform: rotate(300360deg);
+    
+}
+#ligne:active{
+    transform: rotate(360deg);
+    transition: 2s;
+}
+#claud{
+    background-image: url(claude-francois-les-dix-dates-cles-de-sa-carriere.jpg);
+}
+#claud:hover{
+    
+    background-image: url(9hw9.gif);
+    
+}
+.mesBoutons{
+    display: flex;
+    gap: 10px;
+    bottom: 15%;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background: rgb(146, 4, 4);
+    border-radius: 15px;
+    padding: 10px;
+}
